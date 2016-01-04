@@ -1,0 +1,398 @@
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a, nav .brand-logo {
+  color: #3E4541;
+  font-family: 'Vollkorn', Georgia, Times, serif;
+}
+
+a.brand-logo {
+    font-size: 4vh;
+}
+
+p {
+  line-height: 2rem;
+}
+.btn-red {
+  background: #B72A18;
+  color:#FFFFFD;
+}
+
+.btn-red:hover {
+  background: #A61300;
+  color:#FFFFFD;
+}
+
+.parallax-container {
+  min-height: 600px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, .9);
+  text-shadow: 1px 1px 1px #3E4541;
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+
+.heading {
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+}
+ 
+    .name{
+      font-size: 14vmin;
+      font-weight: 700;
+    }
+
+@media screen and (min-width: 300px) {
+   .name {
+      font-size: 14vmin;
+      font-weight: 700;
+    } 
+}
+@media screen and (min-width: 660px) {
+    .name {
+      font-size: 12vmin;
+      font-weight: 700;
+    }
+}
+@media screen and (min-width: 992px) {
+    .name{
+      font-size: 14vmin;
+      font-weight: 700;
+    }
+}
+
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+#download-buttona {
+  padding-left: 1%;
+  padding-right: 2%;
+  margin-left: 0.25%;
+  margin-right: 0.25%;
+}
+#download-buttonb {
+  padding-left: 2%;
+  padding-right: 1%;
+  margin-left: 0.25%;
+  margin-right: 0.25%;
+}
+
+img.logo {
+  height: 80px;
+  width: auto;
+}
+a.logoish {
+    font-size: 1.4em;
+}
+div.connect {
+  text-align: right;
+}
+.containerizer {
+    position: absolute;
+  width: 100%;
+    overflow-x: hidden;
+}
+.containerizer .materialback {
+  height: 93vh;
+  width: 100%;
+  background: transparent;
+}
+.containerizer .whitey {
+  position: relative;
+  height: auto;
+  width: 100%;
+  background: #FFFFFD;
+  padding-bottom: 7vh;
+}
+.containerizer .whitey:before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  border-style: solid;
+  border-width: 0 0 60px 100vw;
+  border-color: transparent transparent #FFFFFD;
+}
+.containerizer .pinky {
+  position: relative;
+  height: auto;
+  width: 100%;
+  background:#A61300;
+  padding-bottom: 7vh;
+}
+.containerizer .pinky:before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  border-style: solid;
+  border-width: 0 0 60px 100vw;
+  border-color: transparent transparent #A61300;
+}
+
+.smaller {
+  transform: scale(0.8, 0.8);
+}
+
+.page-footer {
+  width: 100%;
+  padding-bottom: 0.2vh;
+  margin-bottom: -0.01vh;
+}
+
+body {
+    font-family: 'Vollkorn', Georgia, Times, serif;
+    text-shadow: 0.5px 0.5px 1px #FFFFFD;
+    width:100%;
+    background: #870F00;
+}
+
+.mini-header {
+    font-family: 'Oswald', sans-serif;
+}
+
+.colorRedNav {
+    background: #870F00;
+}
+
+.colorRed {
+    color: #870F00;
+}
+
+.white-text {
+    color: #FFFFFD;
+}
+
+/* Custom horizontal rule styles */
+.first-hr {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 16px;
+}
+.first-hr span {
+    position: relative;
+    display: inline-block;
+    height:20px;
+    padding-top: 10px;
+}
+.first-hr span:before {
+    right: 100%;
+    margin-right: 10px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 25vw;
+    height: 1px;
+    background: #FFFFFD;
+}
+.first-hr span:after {
+    left: 100%;
+    margin-left: 10px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 25vw;
+    height: 1px;
+    background: #FFFFFD;
+}
+
+.light-hr {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 16px;
+}
+.light-hr span {
+    position: relative;
+    display: inline-block;
+    padding-top: 2px;
+}
+.light-hr span:before {
+    right: 100%;
+    margin-right: 10px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 25vw;
+    height: 1px;
+    background: #FFFFFD;
+}
+.light-hr span:after {
+    left: 100%;
+    margin-left: 10px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 25vw;
+    height: 1px;
+    background: #FFFFFD;
+}
+
+.dark-hr {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 16px;
+}
+.dark-hr span {
+    position: relative;
+    display: inline-block;
+    padding-top: 2px;
+}
+.dark-hr span:before {
+    right: 100%;
+    margin-right: 10px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 25vw;
+    height: 1px;
+    background: #3E4541;
+}
+.dark-hr span:after {
+    left: 100%;
+    margin-left: 10px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 25vw;
+    height: 1px;
+    background: #3E4541;
+}
+
+.light-a {
+    color: #2980b9;
+}
+.light-a:hover,
+.light-a:focus {
+    text-decoration: none;
+    color: #34495e;
+}
+
+
+.dark-a {
+    color: #ffeeac;
+}
+.dark-a:hover,
+.dark-a:focus {
+    text-decoration: none;
+    color: #f39c12;
+}
+
+
+/* Schedule styles */
+#schedule {
+    background-color: transparent;
+    color: #FFFFFD;
+}
+#schedule .schedule-day ol {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#schedule .schedule-day ol li p.item-title {
+    font-weight:500;
+    margin:0;
+}
+#schedule .schedule-day ol li p.item-detail {
+    opacity:.6;
+    margin:0;
+    color:#B7A4A2;
+}
+#schedule .schedule-day ol li .schedule-time {
+    color:#FFFFFD;
+}
+#schedule .schedule-day ol li {
+    margin-bottom: 10px;
+}
+
+
+/* FAQs styles */
+#faq .faq-question {
+    text-align: left;
+    margin-bottom: 30px;
+    color:#FFFFFD;
+}
+#faq .faq-question h3 {
+    font-family: "Oswald";
+    color:#FFFFFD;
+}
+#faq .faq-question p {
+    margin:0;
+    color:#FFFFFD;
+}
+#faq .contact {
+    margin-top: 20px;
+    color:#FFFFFD;
+
+}
+
+.woop {
+    height:300px;
+    width: 100vw;
+    margin-bottom: -20px;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+#about {
+    background: transparent;
+}
+
+.yuck {
+    position:absolute;
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+}
+
+.bigPic {
+    
+}
