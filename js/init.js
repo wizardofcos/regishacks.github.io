@@ -47,8 +47,8 @@ $(function(){
 
 
 var appear = {
-    reset: false,  
-    delay    : 20,
+    reset: false,
+    delay    : 0,
   distance : '10vw',
   easing   : 'ease-in-out',
   scale    : 0.1
@@ -56,35 +56,35 @@ var appear = {
 
 
 var slide = {
-  reset: false,  
+  reset: false,
   origin: 'bottom',
-  delay    : 20,
+  delay    : 0,
   distance : '10vw',
   easing   : 'cubic-bezier(0.785, 0.135, 0.15, 0.86)',
   scale    : 0.1
 };
 
 var slideLeft = {
-  reset: false,  
+  reset: false,
   origin: 'left',
-  delay    : 20,
+  delay    : 0,
   distance : '10vw',
   easing   : 'cubic-bezier(0.785, 0.135, 0.15, 0.86)',
   scale    : 1
 };
 
 var slideRight = {
-  reset: false, 
+  reset: false,
   origin: 'right',
-  delay    : 20,
+  delay    : 0,
   distance : '10vw',
   easing   : 'cubic-bezier(0.785, 0.135, 0.15, 0.86)',
   scale    : 1
 };
 
 var divider = {
-  reset: false, 
-  delay    : 20,
+  reset: false,
+  delay    : 0,
   distance : '10vw',
   easing   : 'cubic-bezier(0.68, -0.55, 0.265, 1.55)',
   scale    : 0.05
@@ -97,5 +97,3 @@ sr.reveal('.slide', slide);
 sr.reveal('.slide-left', slideLeft);
 sr.reveal('.slide-right', slideRight);
 sr.reveal('.dividero',  divider );
-
-

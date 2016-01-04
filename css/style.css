@@ -10,7 +10,7 @@
 
 nav ul a, nav .brand-logo {
   color: #3E4541;
-  font-family: 'Vollkorn', Georgia, Times, serif;
+font-family: 'Montserrat', sans-serif;
 }
 
 a.brand-logo {
@@ -43,9 +43,9 @@ p {
 
 
 .heading {
-    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+font-family: 'Montserrat', sans-serif;
 }
- 
+
     .name{
       font-size: 14vmin;
       font-weight: 700;
@@ -55,7 +55,7 @@ p {
    .name {
       font-size: 14vmin;
       font-weight: 700;
-    } 
+    }
 }
 @media screen and (min-width: 660px) {
     .name {
@@ -161,14 +161,10 @@ div.connect {
 }
 
 body {
-    font-family: 'Vollkorn', Georgia, Times, serif;
-    text-shadow: 0.5px 0.5px 1px #FFFFFD;
+  font-family: 'Montserrat', sans-serif;
+     text-shadow: 0.5px 0.5px 1px #FFFFFD;
     width:100%;
     background: #870F00;
-}
-
-.mini-header {
-    font-family: 'Oswald', sans-serif;
 }
 
 .colorRedNav {
@@ -339,7 +335,6 @@ body {
     color:#FFFFFD;
 }
 #faq .faq-question h3 {
-    font-family: "Oswald";
     color:#FFFFFD;
 }
 #faq .faq-question p {
@@ -394,5 +389,5 @@ body {
 }
 
 .bigPic {
-    
+
 }
