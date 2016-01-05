@@ -307,8 +307,7 @@ body {
 }
 #schedule .schedule-day ol {
     list-style-type: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding:0;
 
 }
 #schedule .schedule-day ol li p.item-title {
