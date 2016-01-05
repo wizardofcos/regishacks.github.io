@@ -336,27 +336,22 @@
     google.maps.event.addDomListener(window, 'load', init);
     var map;
     function init() {
-        var mapOptions = {
-            center: new google.maps.LatLng(40.697299,-28.634034),
-            zoom: 12,
-            center: new google.maps.LatLng(40.780271, -73.958891),
-            zoomControl: false,
-            disableDoubleClickZoom: false,
-            mapTypeControl: true,
-            mapTypeControlOptions: {
-                style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-            },
-            scaleControl: false,
-            scrollwheel: false,
-            panControl: false,
-            streetViewControl: false,
-            draggable : false,
-            overviewMapControl: false,
-            overviewMapControlOptions: {
-                opened: false,
-            },
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
-        }
+       var mapOptions = {
+        // How zoomed in you want the map to start at (always required)
+        zoom: 12,
+
+        // The latitude and longitude to center the map (always required)
+        center: new google.maps.LatLng(40.780271, -73.958891), // New York
+        
+        // Disables the default Google Maps UI components
+        disableDefaultUI: true,
+        scrollwheel: false,
+        draggable: false,
+
+        // How you would like to style the map. 
+        // This is where you would paste any style found on Snazzy Maps.
+        styles: [{"stylers":[{"hue":"#dd0d0d"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":100},{"visibility":"simplified"}]}]
+    };
         var mapElement = document.getElementById('map');
         var map = new google.maps.Map(mapElement, mapOptions);
         var locations = [
