@@ -307,24 +307,27 @@ body {
 }
 #schedule .schedule-day ol {
     list-style-type: none;
-    padding: 0;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
 }
 #schedule .schedule-day ol li p.item-title {
     font-weight:500;
     margin:0;
+    font-size: 1.5rem;
 }
 #schedule .schedule-day ol li p.item-detail {
     opacity:.6;
     margin:0;
     color:#B7A4A2;
+    font-size:1.3rem;
 }
 #schedule .schedule-day ol li .schedule-time {
     color:#FFFFFD;
 }
 #schedule .schedule-day ol li {
     margin-bottom: 10px;
+    font-size: 1.2rem;
 }
 
 
