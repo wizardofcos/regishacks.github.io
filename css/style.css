@@ -2,15 +2,15 @@
 
 
 /**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+* Use this file to override Materialize files so you can update
+* the core Materialize files in the future
+*
+* Made By MaterializeCSS.com
+*/
 
 nav ul a, nav .brand-logo {
-  color: #3E4541;
-font-family: 'Montserrat', sans-serif;
+    color: #3E4541;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a.brand-logo {
@@ -18,151 +18,149 @@ a.brand-logo {
 }
 
 p {
-  line-height: 2rem;
+    line-height: 2rem;
 }
 .btn-red {
-  background: #B72A18;
-  color:#FFFFFD;
+    background: #B72A18;
+    color:#FFFFFD;
 }
 
 .btn-red:hover {
-  background: #A61300;
-  color:#FFFFFD;
+    background: #A61300;
+    color:#FFFFFD;
 }
 
 .parallax-container {
-  min-height: 600px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255, 255, 255, .9);
-  text-shadow: 1px 1px 1px #3E4541;
+    min-height: 600px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
 }
 .parallax-container .section {
-  width: 100%;
+    width: 100%;
 }
 
 
 .heading {
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-    .name{
-      font-size: 14vmin;
-      font-weight: 700;
-    }
+.name{
+    font-size: 14vmin;
+    font-weight: 700;
+}
 
 @media screen and (min-width: 300px) {
-   .name {
-      font-size: 14vmin;
-      font-weight: 700;
+    .name {
+        font-size: 14vmin;
+        font-weight: 700;
     }
 }
 @media screen and (min-width: 660px) {
     .name {
-      font-size: 12vmin;
-      font-weight: 700;
+        font-size: 12vmin;
+        font-weight: 700;
     }
 }
 @media screen and (min-width: 992px) {
     .name{
-      font-size: 14vmin;
-      font-weight: 700;
+        font-size: 14vmin;
+        font-weight: 700;
     }
 }
 
 
 a:link {
-  text-decoration: none;
+    text-decoration: none;
 }
 a:visited {
-  text-decoration: none;
+    text-decoration: none;
 }
 a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 a:active {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 #download-buttona {
-  padding-left: 1%;
-  padding-right: 2%;
-  margin-left: 0.25%;
-  margin-right: 0.25%;
+    padding-left: 1%;
+    padding-right: 2%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
 }
 #download-buttonb {
-  padding-left: 2%;
-  padding-right: 1%;
-  margin-left: 0.25%;
-  margin-right: 0.25%;
+    padding-left: 2%;
+    padding-right: 1%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
 }
 
 img.logo {
-  height: 80px;
-  width: auto;
+    height: 80px;
+    width: auto;
 }
 a.logoish {
     font-size: 1.4em;
 }
 div.connect {
-  text-align: right;
+    text-align: right;
 }
 .containerizer {
     position: absolute;
-  width: 100%;
+    width: 100%;
     overflow-x: hidden;
 }
 .containerizer .materialback {
-  height: 93vh;
-  width: 100%;
-  background: transparent;
+    height: 93vh;
+    width: 100%;
+    background: transparent;
 }
 .containerizer .whitey {
-  position: relative;
-  height: auto;
-  width: 100%;
-  background: #FFFFFD;
-  padding-bottom: 7vh;
+    position: relative;
+    height: auto;
+    width: 100%;
+    background: #FFFFFD;
+    padding-bottom: 7vh;
 }
 .containerizer .whitey:before {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  border-style: solid;
-  border-width: 0 0 60px 100vw;
-  border-color: transparent transparent #FFFFFD;
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    border-style: solid;
+    border-width: 0 0 60px 100vw;
+    border-color: transparent transparent #FFFFFD;
 }
 .containerizer .pinky {
-  position: relative;
-  height: auto;
-  width: 100%;
-  background:#A61300;
-  padding-bottom: 7vh;
+    position: relative;
+    height: auto;
+    width: 100%;
+    background:#A61300;
+    padding-bottom: 7vh;
 }
 .containerizer .pinky:before {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  border-style: solid;
-  border-width: 0 0 60px 100vw;
-  border-color: transparent transparent #A61300;
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    border-style: solid;
+    border-width: 0 0 60px 100vw;
+    border-color: transparent transparent #A61300;
 }
 
 .smaller {
-  transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
 }
 
 .page-footer {
-  width: 100%;
-  padding-bottom: 0.2vh;
-  margin-bottom: -0.01vh;
+    width: 100%;
+    padding-bottom: 0.2vh;
+    margin-bottom: -0.01vh;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
-     text-shadow: 0.5px 0.5px 1px #FFFFFD;
+    font-family: 'Montserrat', sans-serif;
     width:100%;
     background: #870F00;
 }
@@ -308,25 +306,29 @@ body {
 #schedule .schedule-day ol {
     list-style-type: none;
     padding:0;
-
 }
 #schedule .schedule-day ol li p.item-title {
     font-weight:500;
     margin:0;
     font-size: 1.5rem;
+    font-family: "Oswald"
 }
 #schedule .schedule-day ol li p.item-detail {
-    opacity:.6;
     margin:0;
-    color:#B7A4A2;
-    font-size:1.3rem;
+    color:#d9b2ae;
+    font-size:1.1rem;
 }
 #schedule .schedule-day ol li .schedule-time {
-    color:#FFFFFD;
+    color:#ffff8b;
+    font-size: 18px;
 }
 #schedule .schedule-day ol li {
     margin-bottom: 10px;
     font-size: 1.2rem;
+}
+.schedule-note {
+    font-family: "Montserrat";
+        line-height: 24px;
 }
 
 
@@ -336,12 +338,16 @@ body {
     margin-bottom: 30px;
     color:#FFFFFD;
 }
-#faq .faq-question h3 {
+.faq-question h5 {
     color:#FFFFFD;
+    font-family: "Oswald", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
-#faq .faq-question p {
+.faq-question p {
     margin:0;
     color:#FFFFFD;
+    font-size: 21px;
 }
 #faq .contact {
     margin-top: 20px;
@@ -390,3 +396,24 @@ body {
     height: 300px;
 }
 
+.bigPic {
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 10px;
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
