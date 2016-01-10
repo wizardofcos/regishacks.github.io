@@ -11,6 +11,7 @@
 nav ul a, nav .brand-logo {
     color: #3E4541;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 a.brand-logo {
@@ -308,51 +309,45 @@ body {
     padding:0;
 }
 #schedule .schedule-day ol li p.item-title {
-    font-weight:500;
     margin:0;
-    font-size: 1.5rem;
-    font-family: "Oswald"
+    font-family: "Oswald";
+    color:whitesmoke;
+    opacity: 0.75;
 }
 #schedule .schedule-day ol li p.item-detail {
     margin:0;
-    color:#d9b2ae;
-    font-size:1.1rem;
+    color:#CF8B81;
 }
 #schedule .schedule-day ol li .schedule-time {
-    color:#ffff8b;
-    font-size: 18px;
 }
 #schedule .schedule-day ol li {
-    margin-bottom: 10px;
-    font-size: 1.2rem;
+    margin-bottom: 30px;
 }
 .schedule-note {
     font-family: "Montserrat";
-        line-height: 24px;
+    opacity: 0.75;
 }
 
 
 /* FAQs styles */
 #faq .faq-question {
-    text-align: center;
-    margin-bottom: 30px;
     color:#FFFFFD;
 }
 .faq-question h5 {
     color:#FFFFFD;
     font-family: "Oswald", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    opacity:  0.75;
 }
-.faq-question p {
-    margin:0;
-    color:#FFFFFD;
-    font-size: 21px;
+.answer {
+    color:#CF8B81;
 }
-#faq .contact {
-    margin-top: 20px;
-    color:#FFFFFD;
 
+#faq .contact {
+    color:#FFFFFD;
+    margin-top:40px;
+    margin-bottom:-15px;
+    font-weight: 400;
 }
 
 .woop {
